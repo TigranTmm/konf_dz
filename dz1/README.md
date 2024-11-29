@@ -34,4 +34,3 @@ python main.py
 ```
 python -m tests.tests
 ```
-![image](https://github.com/user-attachments/assets/3e8256c8-8124-4c0e-a3e0-ec83cccc20f7)
