@@ -1,0 +1,25 @@
+# Основной словарь с корректными именами
+MAIN:
+  # Вложенный словарь
+  NESTED:
+    STRING: "This is a test"
+    NUMBER: 42
+    ANOTHERDICT:
+      BOOLTRUE: true
+      BOOLFALSE: false
+      EMPTYSTRING: ""
+  # Пустой словарь
+  EMPTYDICT: {}
+
+# Использование некорректного имени (можно проверить обработку ошибки)
+INVKEY: "This key is invalid"
+
+# Проверка массива (не поддерживается,
+#для тестирования обнаружения ошибки, раскомментировать 3 строки ниже)
+#ARRAYTEST:
+#  - "Item 1"
+#  - "Item 2"
+
+# Дополнительные комментарии, чтобы проверить их удаление
+# This is another comment
+SIMPLEKEY: "Value without a nested structure"
